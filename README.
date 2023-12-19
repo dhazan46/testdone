@@ -1,5 +1,6 @@
+# test3
 README.md
-My Python Project
+My Python Project test <h1>
 This Python project provides basic arithmetic operations and includes modules for digit sum calculation and palindrome checking.
 
 Project Structure
@@ -43,6 +44,3 @@ The script test_script.py tests all functions in the project.
 
 Test Module (test_module.py)
 The module test_module.py tests the rule that a user cannot call functions in the comp module before calling at least one function in the simp module.
-
-# test3
-# testdone
