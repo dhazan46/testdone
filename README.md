@@ -1,0 +1,47 @@
+README.md
+My Python Project
+This Python project provides basic arithmetic operations and includes modules for digit sum calculation and palindrome checking.
+
+Project Structure
+my_project/
+│
+├── tools/
+│   ├── col.py
+│   ├── numbers/
+│   │   ├── comp.py
+│   │   ├── simp.py
+│
+├── test_module.py
+├── test_script.py
+├── main.py
+├── requirements.txt
+├── README.md
+├── venv/  # (virtual environment directory)
+
+Modules and Functions
+1. simp Module
+add_numbers(a, b)
+This function adds two numbers.
+
+subtract_numbers(a, b)
+This function subtracts the second number from the first.
+
+2. comp Module
+sumofdigits(number)
+This function calculates the sum of digits of a given number.
+
+ispal(number)
+This function checks if a number is a palindrome.
+
+3. col Module
+myzip(it1, it2)
+This function implements the zip function for two collections.
+
+Testing
+Test Script (test_script.py)
+The script test_script.py tests all functions in the project.
+
+Test Module (test_module.py)
+The module test_module.py tests the rule that a user cannot call functions in the comp module before calling at least one function in the simp module.
+
+# test3
